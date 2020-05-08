@@ -31,6 +31,6 @@ paths:
       tags: []
       responses: {}
       operationId: get-customers-customer-id
-      description: description
+      description: description 1
 components:
   schemas: {}
