@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: Customers
   version: '1.0'
+  description: Chip
 servers:
   - url: 'http://localhost:3000'
 paths:
@@ -30,5 +31,6 @@ paths:
       tags: []
       responses: {}
       operationId: get-customers-customer-id
+      description: description
 components:
   schemas: {}
