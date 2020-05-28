@@ -21,7 +21,7 @@ paths:
                   '':
                     type: string
       operationId: get-customers
-      description: '12345678  '
+      description: 12345678  22221
   '/customers/{customer-id}':
     parameters:
       - schema:
