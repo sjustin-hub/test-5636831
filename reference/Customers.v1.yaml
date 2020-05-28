@@ -17,8 +17,11 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  '':
+                    type: string
       operationId: get-customers
+      description: '12345678  '
   '/customers/{customer-id}':
     parameters:
       - schema:
