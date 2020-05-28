@@ -18,17 +18,20 @@ paths:
                 type: object
                 properties: {}
       operationId: get-customers
-  '/customers/{customer-id}':
+      description: ''
+  '/customers/{customerId}':
     parameters:
       - schema:
           type: string
-        name: customer-id
+        name: customerId
         in: path
         required: true
     get:
       summary: Your GET endpoint
       tags: []
-      responses: {}
+      responses:
+        '200':
+          description: OK
       operationId: get-customers-customer-id
 components:
   schemas: {}
